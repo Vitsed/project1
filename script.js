@@ -22,10 +22,12 @@ let persone = {
     isMarried: false
 };
 
-console.log(persone["name"]);
+console.log("name is: ", persone.name, "age is " , persone.age);
 
-let arr = ['plum.png','orange.jpg', 'apple.bmp'];
+// let answer = confirm("Уже ел?");
+// let arr = ['plum.png','orange.jpg', 'apple.bmp'];
 
+// console.log(answer);
 // console.log(arr[2]);
 
 // let answer = confirm("Are you here?");
@@ -33,7 +35,12 @@ let arr = ['plum.png','orange.jpg', 'apple.bmp'];
 // console.log(answer);
 
 
-let answer = prompt("Есть ли вам 18?", "Да");
+// let answer = prompt("Есть ли вам 18?", "Да");
 
-console.log(typeof(answer));
+console.log("=====================================");
+console.log("=====================================");
+console.log("=====================================");
 // alert("Hello World");
+
+console.log("2" === 2);
+console.log("2" == 2);
